@@ -8,7 +8,7 @@ const Index = () => {
         <Box as="header" py={5}>
           <HStack justifyContent="space-between" alignItems="center">
             <Heading as="h1" size="xl">
-              SecureCo
+              BULLS SECURITY SERVICES
             </Heading>
             <HStack spacing={2}>
               <Button leftIcon={<Icon as={FaHome} />} colorScheme="teal" variant="ghost">
@@ -72,7 +72,7 @@ const Index = () => {
 
         <Box as="footer" py={5}>
           <VStack spacing={3}>
-            <Text fontSize="sm">© 2023 SecureCo. All rights reserved.</Text>
+            <Text fontSize="sm">© 2024 BULLS SECURITY SERVICES. All rights reserved.</Text>
             <HStack spacing={2}>
               <Icon as={FaPhoneAlt} />
               <Text fontSize="sm">+1 234 567 8900</Text>
