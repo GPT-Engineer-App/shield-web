@@ -66,6 +66,13 @@ const Index = () => {
                 </Text>
                 <Text textAlign="center">Highly trained security dogs for patrol and detection.</Text>
               </VStack>
+              <VStack spacing={3}>
+                <Icon as={FaShieldAlt} w={10} h={10} color="teal.500" />
+                <Text fontSize="md" fontWeight="bold">
+                  CCTV Solutions
+                </Text>
+                <Text textAlign="center">Comprehensive video surveillance to secure your premises.</Text>
+              </VStack>
             </HStack>
           </VStack>
         </Box>
