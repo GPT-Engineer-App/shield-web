@@ -14,6 +14,9 @@ const Index = () => {
               <Button leftIcon={<Icon as={FaHome} />} colorScheme="teal" variant="ghost">
                 Home
               </Button>
+              <Button leftIcon={<Icon as={FaShieldAlt} />} colorScheme="teal" variant="solid">
+                Services
+              </Button>
               <Button leftIcon={<Icon as={FaPhoneAlt} />} colorScheme="teal" variant="solid">
                 Contact Us
               </Button>
