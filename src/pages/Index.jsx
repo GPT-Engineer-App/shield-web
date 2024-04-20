@@ -1,5 +1,5 @@
 import { Box, Container, Heading, Text, Button, Image, VStack, HStack, Icon } from "@chakra-ui/react";
-import { FaShieldAlt, FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
+import { FaShieldAlt, FaPhoneAlt, FaEnvelope, FaMapMarkedAlt, FaHome } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -10,7 +10,10 @@ const Index = () => {
             <Heading as="h1" size="xl">
               SecureCo
             </Heading>
-            <HStack spacing={4}>
+            <HStack spacing={2}>
+              <Button leftIcon={<Icon as={FaHome} />} colorScheme="teal" variant="ghost">
+                Home
+              </Button>
               <Button leftIcon={<Icon as={FaPhoneAlt} />} colorScheme="teal" variant="solid">
                 Contact Us
               </Button>
