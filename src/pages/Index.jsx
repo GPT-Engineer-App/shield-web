@@ -7,9 +7,12 @@ const Index = () => {
       <VStack spacing={10}>
         <Box as="header" py={5}>
           <HStack justifyContent="space-between" alignItems="center">
-            <Heading as="h1" size="xl">
-              BULLS SECURITY SERVICES
-            </Heading>
+            <HStack spacing={4} alignItems="center">
+              <Image src="https://upload.wikimedia.org/wikipedia/en/6/67/Chicago_Bulls_logo.svg" boxSize="50px" />
+              <Heading as="h1" size="xl">
+                BULLS SECURITY SERVICES
+              </Heading>
+            </HStack>
             <HStack spacing={2}>
               <Button leftIcon={<Icon as={FaHome} />} colorScheme="teal" variant="ghost">
                 Home
