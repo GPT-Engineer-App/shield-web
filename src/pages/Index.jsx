@@ -73,6 +73,13 @@ const Index = () => {
                 </Text>
                 <Text textAlign="center">Comprehensive video surveillance to secure your premises.</Text>
               </VStack>
+              <VStack spacing={3}>
+                <Icon as={FaShieldAlt} w={10} h={10} color="teal.500" />
+                <Text fontSize="md" fontWeight="bold">
+                  Access Control
+                </Text>
+                <Text textAlign="center">Advanced systems to manage entry and exit securely.</Text>
+              </VStack>
             </HStack>
           </VStack>
         </Box>
